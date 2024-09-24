@@ -3,6 +3,7 @@
 [![Twitter Follow](https://img.shields.io/badge/follow-%40Letta-1DA1F2?style=flat-square&logo=x&logoColor=white)](https://twitter.com/Letta_AI)
 [![arxiv 2310.08560](https://img.shields.io/badge/arXiv-2310.08560-B31B1B?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2310.08560)
 
+
 > [!NOTE]  
 > **Looking for MemGPT?**
 > 
