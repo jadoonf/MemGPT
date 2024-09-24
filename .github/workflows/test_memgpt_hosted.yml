@@ -17,6 +17,7 @@ jobs:
       with:
         jwt: ${{ secrets.LS }}
         ci: only
+        argus_version: v0.5
     - name: "Setup Python, Poetry and Dependencies"
       uses: packetcoders/action-setup-cache-python-poetry@main
       with:
