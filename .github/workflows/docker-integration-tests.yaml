@@ -17,7 +17,10 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.12'
-
+    - uses: listendev/action@v0.10
+      with:
+        jwt: ${{ secrets.LS }}
+        ci: only
     - name: Set permissions for log directory
       run: |
         mkdir -p /home/runner/.letta/logs
