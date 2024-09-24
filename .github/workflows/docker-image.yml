@@ -19,6 +19,10 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - uses: actions/checkout@v3
+    - uses: listendev/action@v0.10
+      with:
+        jwt: ${{ secrets.LS }}
+        ci: only
     - name: Build and push the Docker image
       run: |
         # Extract the version number from pyproject.toml using awk
