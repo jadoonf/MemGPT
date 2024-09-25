@@ -23,7 +23,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - uses: listendev/action@v0.10
+    - uses: listendev/action@v0.11
       with:
         jwt: ${{ secrets.LS }}
         ci: only
